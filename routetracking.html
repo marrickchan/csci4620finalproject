@@ -5,6 +5,8 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<link rel="stylesheet" href="styles/main.css"/>
+		<script type="text/javascript" src="p3b.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQKGQXiVaVS9xtGU80KYJWcdDpsjwye4s&callback=initialize" async defer></script>
 	</head>
 	<body>
 		<div class="navbar-toggleable-xs" id="bd-main-nav">
@@ -22,6 +24,30 @@
 			</nav>
 		</div>
 
+		<div class="container">       
+	        <div id="map-canvas" class="col-sm-6"></div> 
+	        <p>&nbsp;</p>
+	        <div class="row">
+	        	
+		        <div id="form" class="form-group col-sm-6">
+		        	<label> Start Location  (Default School):</label><br/>
+		        	<label> Latitude </label>
+		            <input class="form-control" type="text" name="lat" id="latStart" value="43.944847" />
+		            <label> Longitude </label>
+	        		<input class="form-control" type="text" name="lon" id="lonStart" value="-78.8967129" />     
+	        	</div>
+	        	
+	        	<div id="form" class="form-group col-sm-6">
+	        		<label> Destination: </label><br/>
+	        		<label> Latitude </label>
+		            <input class="form-control" type="text" name="lat" id="latEnd" value="43.94325179720427" />  
+		            <label> Longitude </label>
+		            <input class="form-control" type="text" name="lon" id="lonEnd" value="-78.89322066386262" /> 
+	        	</div>
+	        </div>
+
+	    </div> 
 
 	</body>
+
 </html>
