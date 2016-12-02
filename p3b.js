@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+	// School Map
 	$("#simulate").click(function () {
 		alert("ALERT: FIRE ALARM GOING OFF IN BUILDING. PLEASE PROCEED TO EXIT IMMEDIATELY.");
 
@@ -14,6 +15,20 @@ $(document).ready(function () {
 
 	$("#reset").click(function () {
 		$("#schoolMap").attr("src", "images/map1.JPG");
+	});
+
+	// Route Tracking
+	$('#latStart').change(function(){
+		initialize();
+	});
+	$('#lonStart').change(function(){
+		initialize();
+	});
+	$('#latEnd').change(function(){
+		initialize();
+	});
+	$('#lonEnd').change(function(){
+		initialize();
 	});
 
 
