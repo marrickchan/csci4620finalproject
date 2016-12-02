@@ -35,7 +35,8 @@ body {
 #smapStatus,
 #contactInfo,
 #searchBar,
-#otherComp {
+#otherComp,
+#retToMain {
 	text-align: center;
 }
 
@@ -94,7 +95,7 @@ body {
 
 .dropdown-content a:hover {
 	background-color: #f1f1f1;
-	z-index: 3;
+	z-index: -1;
 }
 
 
@@ -115,4 +116,49 @@ body {
 	color: #000;
 	border: solid 3px #000;
 	background-color: #f1f1f1
+}
+
+.table {
+	text-align: center;
+}
+
+.securityNo {
+	border: 2px solid #000;
+}
+
+#securityTable {
+	width: 20%;
+}
+
+tr {
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+#retToMain button {
+	margin: 1em;
+}
+
+.table tbody .secAddress td {
+	padding: 0px;
+}
+
+.table tbody .secAddressLast td {
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+}
+
+.table tbody .securityTitle td {
+	border: 5px solid #000;
+}
+
+h2,
+h3 {
+	margin: 1em;
+}
+
+#searchButt {
+	margin-top: 1em;
 }
