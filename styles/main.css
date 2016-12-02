@@ -4,14 +4,34 @@ body {
 }
 
 #map-canvas {
-    width: 100%;
-    height: 500px;
-    float: left;
-    
+	width: 100%;
+	height: 500px;
+	float: left;
 }
 
 .form-actions {
-    margin: 0;
-    background-color: transparent;
-    text-align: center;
+	margin: 0;
+	background-color: transparent;
+	text-align: center;
+}
+
+#schooLegend {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#schoolMap,
+#schooLegend {
+	width: 100%;
+	border: solid 4px #000000;
+}
+
+#smap {
+	width: 60%;
+	height: 60%%;
+}
+
+#smapButtons,
+#smapStatus {
+	text-align: center;
 }

@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>JAMM Safety</title>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<link rel="stylesheet" href="styles/main.css"/>
-		<script type="text/javascript" src="p3b.js"></script>
-	</head>
-	<body>
-		<div class="navbar-toggleable-xs" id="bd-main-nav">
-			<nav class="navbar navbar-inverse navbar-fixed-top">
-				<div class="container">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html">JAMM Safety</a>
-					</div>
-					<ul class="nav navbar-nav">
-						<li><a href="#">School Map</a></li>
-						<li><a href="routetracking.html">Route Tracking</a></li>
-						<li><a href="contactinformation.html">Contact Information</a></li>
-					</ul>
+
+<head>
+	<title>JAMM Safety</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="styles/main.css" />
+	<script type="text/javascript" src="p3b.js"></script>
+</head>
+
+<body id="smapBody">
+	<div class="navbar-toggleable-xs" id="bd-main-nav">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">JAMM Safety</a>
 				</div>
-			</nav>
-		</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">School Map</a></li>
+					<li><a href="routetracking.html">Route Tracking</a></li>
+					<li><a href="contactinformation.html">Contact Information</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 
+	<div id="smapStatus" class="container-fluid">
+		<h2>UA Building - 3rd Floor</h2>
+	</div>
+	<div id="smap" class="container-fluid">
+		<img id="schoolMap" src="images/map1.JPG" class="img-rounded">
+		<img id="schooLegend" src="images/legend.JPG" class="img-rounded">
+	</div>
 
-	</body>
+</body>
+
 </html>
